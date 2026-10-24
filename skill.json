@@ -1,0 +1,12 @@
+{
+  "name": "genpark-lru-ttl-multi-tier-cache-skill",
+  "version": "1.0.1",
+  "description": "In-memory LRU cache with per-key TTL expiration, deterministic eviction, and hit/miss/stale telemetry for LLMs",
+  "tools": [
+    "set",
+    "get",
+    "evict",
+    "get_stats",
+    "clear"
+  ]
+}
