@@ -1,0 +1,7 @@
+name: genpark-lru-ttl-multi-tier-cache-skill
+description: In-memory LRU cache with per-key TTL expiration, deterministic eviction, and hit/miss/stale telemetry for LLMs
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
